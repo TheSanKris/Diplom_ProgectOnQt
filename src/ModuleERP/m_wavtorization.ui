@@ -1,22 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>m_wAvtorization</class>
- <widget class="QMainWindow" name="Avtorization">
+ <widget class="QMainWindow" name="m_wAvtorization">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>836</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>m_Avtorization</string>
+   <string>Avtorization</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" alignment="Qt::AlignLeft|Qt::AlignTop">
+     <widget class="QLabel" name="logo">
+      <property name="minimumSize">
+       <size>
+        <width>206</width>
+        <height>67</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>206</width>
+        <height>67</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/pictures/src/logo.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QWidget" name="form" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>554</width>
+        <height>569</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>554</width>
+        <height>569</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 20px;
+border:1px solid rgb(23, 101, 253);
+</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>535</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>535</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>35</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(252, 192, 217);
+border-radius: 20px;
+border:1px solid rgb(23, 101, 253);</string>
+         </property>
+         <property name="text">
+          <string>Авторизация</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QTextEdit" name="login">
+         <property name="minimumSize">
+          <size>
+           <width>507</width>
+           <height>62</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>507</width>
+           <height>62</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(209, 224, 255);
+border-radius: 20px;
+border:1px solid rgb(23, 101, 253);</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QTextEdit" name="password">
+         <property name="minimumSize">
+          <size>
+           <width>507</width>
+           <height>62</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>507</width>
+           <height>62</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>14</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(209, 224, 255);
+border-radius: 20px;
+border:1px solid rgb(23, 101, 253);</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QCheckBox" name="checkBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>460</width>
+           <height>62</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>460</width>
+           <height>62</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 0px solid rgb(255, 255, 255);
+</string>
+         </property>
+         <property name="text">
+          <string>Запомнить меня</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+        <widget class="QPushButton" name="buttonLogin">
+         <property name="minimumSize">
+          <size>
+           <width>313</width>
+           <height>52</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>313</width>
+           <height>52</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>26</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(209, 224, 255);
+border-radius: 20px;
+border:1px solid rgb(23, 101, 253);</string>
+         </property>
+         <property name="text">
+          <string>Вход</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

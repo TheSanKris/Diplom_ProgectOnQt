@@ -7,6 +7,6 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     m_wAvtorization w;
-    w.show();
+    w.showMaximized();
     return a.exec();
 }
