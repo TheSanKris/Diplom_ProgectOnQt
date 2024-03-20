@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>m_Avtorization</class>
- <widget class="QMainWindow" name="m_Avtorization">
+ <class>m_wAvtorization</class>
+ <widget class="QMainWindow" name="Avtorization">
   <property name="geometry">
    <rect>
     <x>0</x>

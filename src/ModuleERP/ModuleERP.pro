@@ -9,17 +9,17 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    m_mainwindow.cpp \
-    main.cpp \
-    m_avtorization.cpp
+    m_wavtorization.cpp \
+    m_wmainwindow.cpp \
+    main.cpp
 
 HEADERS += \
-    m_avtorization.h \
-    m_mainwindow.h
+    m_wavtorization.h \
+    m_wmainwindow.h
 
 FORMS += \
-    m_avtorization.ui \
-    m_mainwindow.ui
+    m_wavtorization.ui \
+    m_wmainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

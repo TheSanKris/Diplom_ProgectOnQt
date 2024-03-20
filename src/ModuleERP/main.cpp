@@ -1,12 +1,12 @@
-#include "m_avtorization.h"
-#include "m_mainwindow.h"
+#include "m_wavtorization.h"
+#include "m_wmainwindow.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    m_Avtorization w;
+    m_wAvtorization w;
     w.show();
     return a.exec();
 }
