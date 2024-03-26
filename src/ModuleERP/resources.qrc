@@ -2,4 +2,7 @@
     <qresource prefix="/pictures">
         <file>src/logo.png</file>
     </qresource>
+    <qresource prefix="/styles">
+        <file>styles/style.css</file>
+    </qresource>
 </RCC>

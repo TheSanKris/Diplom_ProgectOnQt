@@ -13,3 +13,8 @@ m_wAvtorization::~m_wAvtorization()
     delete ui;
 }
 
+
+void m_wAvtorization::on_buttonLogin_clicked()
+{
+}
+

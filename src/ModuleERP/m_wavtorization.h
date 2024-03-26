@@ -15,6 +15,9 @@ public:
     m_wAvtorization(QWidget *parent = nullptr);
     ~m_wAvtorization();
 
+private slots:
+    void on_buttonLogin_clicked();
+
 private:
     Ui::m_wAvtorization *ui;
 };
